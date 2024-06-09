@@ -18,7 +18,7 @@
   
   .container {
     position: relative;
-    min-height: 800px;
+    min-height: 780px;
     width: 100%;
     max-width: 400px;
     background: #38B6FF;
@@ -40,7 +40,7 @@
     top:-25px;
   }
 
-/*FONT CONTROLS*/
+/*TITLE CONTROLS*/
 .titleholder{
     display: flex;
     text-align: center;
@@ -64,8 +64,31 @@
     text-shadow: 2px 3px #388bba;
     
   }
+  .titleholder1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    top: 0;
+    right:0;
+    left:0;
+    bottom:0;
+    position:relative;
+}  
+.title1{
 
-/* PHOTO CONTROLS*/
+    width: 70%;
+    height: 100%;   
+    color: #fff;
+    font-family: Horta;
+    font-size: 50px;
+    text-shadow: 2px 3px #388bba;
+    
+  }
+
+/* LOGO CONTROLS*/
   .imahe{
     position: relative;
     width: 100%;
@@ -131,13 +154,23 @@
     height: 100%;   
     width: 100%;
    }
+   .btnc a{
+    text-decoration: none;
+    color:inherit;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;   
+    width: 100%;
+   }
   .button{
     display:flex;
     justify-content: center;
     align-items: center;
     height: 70px;
     position: relative;
-    padding:5=px;
+    padding:5px;
   }
   .buttonb{
     display:flex;
@@ -148,6 +181,14 @@
     position: relative;
     margin: 0%;
     top:20px;
+  }
+  .buttonc {
+    width: 50%;
+    height: fit-content;
+    position: absolute;
+    display: flex;
+    justify-content:right;
+    right:0;
   }
   .btn {
     width: 50%;
@@ -180,6 +221,22 @@
     box-shadow: 0 4px 0 0 #ffb300;
     margin:auto;
   }
+  .btnc {
+    width: 50%;
+    min-width: 40px;
+    height: 100%;
+    background: #FFD200;
+    border-radius:50px;
+    color: #004AAD;
+    font-family: Squada;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s linear;
+    box-shadow: 0 4px 0 0 #ffb300;
+    margin:10%;
+    border:none;
+  }
   .btn:hover {
     color: #fff;
     background: #0159cc;
@@ -189,6 +246,11 @@
   color: #fff;
   background: #0159cc;
   box-shadow: 0 3px 0 0 #004AAD;
+}
+.btnc:hover {
+  color: #fff;
+  background: red;
+  box-shadow: 0 3px 0 0 rgb(155, 0, 0);
 }
 .btn:active {
     color: #004AAD;
@@ -201,6 +263,12 @@
     background:#004AAD;
     box-shadow: 0 2px 0 0 #003983;
     transform: scale(0.95)
+}
+.btnc:active {
+  color: #e4e4e4;
+  background:rgb(155, 0, 0);
+  box-shadow: 2px 0 0 0 rgb(100, 0, 0);
+  transform: scale(0.95)
 }
 
 .choices{
@@ -250,6 +318,76 @@
     background:#FFD200;
     transform: scale(0.95)
 }
+
+/*PER TOPIC*/
+/* ICON CONTROLS */
+.iconholder{
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: fit-content;
+  width: 100%;
+}
+.icon{
+  width: 30%;
+  height: 50%;
+}
+/*ITEM CONTROLS*/
+.itemholder{
+  width:100%;
+  height:auto;
+  bottom:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  background:#004AAD;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.item{
+  border-radius: 3rem;
+  color:#fff;
+  list-style-type: none;
+  font-size: 30px;
+  cursor:pointer;
+  margin: 5%;
+  height: 60px;
+  width: 80%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border: 2px var(--light-blue-color);
+  background-color: #38B6FF;
+  box-shadow: 0 5px 0 0 #003983;
+
+}
+.item:hover{
+  transform: scale(1.09)
+}
+.btnc:hover{
+  transform: scale(1.09)
+}
+.item:active{
+  background:#FFD200;
+  box-shadow: 5px 0 0 0 #ffb300;
+  transform: scale(0.97)
+}
+.item a{
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 3rem;
+  margin: 0;
+  padding: 1rem;
+  text-decoration: none;
+  color:inherit;
+}
+
   /* RESPONSIVENESS */
   @media (max-width: 468px) {
     .container {
