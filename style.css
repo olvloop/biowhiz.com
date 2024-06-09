@@ -52,8 +52,6 @@
     left:0;
     bottom:0;
     position:relative;
-    border: 3px solid blue;
-
 }  
 .title{
 
@@ -101,7 +99,7 @@
     left:0;
     padding-top: 0px;
     position:relative;
-    border: 3px solid blue;
+
    
   }
   /* BUTTON CONTROLS */
@@ -213,7 +211,6 @@
     text-align: center;
     align-items: center;
     position:relative;
-    border: 3px solid blue;
     top: -40px;
 }
 .choice{
