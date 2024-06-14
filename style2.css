@@ -54,7 +54,8 @@
     left:0;
     bottom:0;
     position:relative;
-   /* border: 3px solid red;*/
+    padding-top: 5%;
+   /*border: 3px solid red;*/
 }  
 .title1{
 
@@ -62,10 +63,29 @@
     height: 100%;   
     color: #fff;
     font-family: Horta;
-    font-size: 50px;
+    font-size: 40px;
     text-shadow: 2px 3px #388bba;
     
     
+  }
+  .pharagraphholder{
+    display: list-item;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    position:relative;
+    padding: 5%;
+
+  }
+  .pharagraph{
+    width: 100%;
+    height: 100%;   
+    color: #fff;
+    font-family: Horta;
+    text-align: justify;
+    font-size: 30px;
+    text-shadow: 2px 3px #388bba;
+
   }
 
 /* LOGO CONTROLS*/
@@ -321,7 +341,7 @@
   /*border: 3px solid GREEN;*/
 }
 .icon{
-  width: 40%;
+  width: auto;
   height: 100%;
   display: flex;
 
@@ -339,9 +359,8 @@
     height: auto;
   }
   .icon3{
-    width: 100%;
-    height: 100%;
-    position: relative;
+    width: 50%;
+    height: 50%
   }
 /*ITEM CONTROLS*/
 .itemholder{
